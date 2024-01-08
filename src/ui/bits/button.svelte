@@ -2,7 +2,7 @@
 	import { Button } from "bits-ui";
 </script>
 
-<Button.Root>
+<Button.Root {...$$restProps} on:click on:keydown>
 	<slot />
 </Button.Root>
 
@@ -12,10 +12,11 @@
 		align-items: center;
 		justify-content: center;
 
-		height: 2rem;
+		height: 2.25rem;
 		padding: 0 1.5rem;
-		border-radius: 2px;
+		border-radius: 4px;
 
+		font-size: 0.875rem;
 		font-weight: 600;
 		background: tomato;
 

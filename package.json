@@ -18,6 +18,7 @@
     "@sveltejs/vite-plugin-svelte": "^3.0.1",
     "@tauri-apps/cli": "^1.5.8",
     "@tsconfig/svelte": "^5.0.2",
+    "@types/node": "^20.10.7",
     "bits-ui": "^0.13.4",
     "sass": "^1.69.7",
     "svelte": "^4.2.8",

@@ -16,8 +16,14 @@
 	-webkit-text-size-adjust: 100%;
 }
 
-body {
-	padding: 1rem;
+body,
+#app {
+	min-height: 100vh;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
 }
 
 *,
