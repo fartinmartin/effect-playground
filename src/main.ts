@@ -1,4 +1,5 @@
-import "./ui/styles/styles.css";
+import "./ui/styles/reset.scss";
+import "./ui/styles/root.scss";
 import App from "./app.svelte";
 
 const app = new App({
